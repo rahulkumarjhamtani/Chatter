@@ -61,7 +61,7 @@ const App = () => {
       offset={6}
       height="100vh"
       projectID="4175a0e2-a95c-49cb-bbb3-40056d23fc05"
-      userName="Aryan"
+      userName="Rahul"
       userSecret="1234"
     />
   );
