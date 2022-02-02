@@ -7,7 +7,30 @@ const ChatFeed = (props) =>
     const {chats,activeChat,userName,messages} = props;
 
     const chat = chats && chats[activeChat];
-    console.log(chat,userName,messages);
+    
+    const renderMessages = () => {
+        const keys = Object.keys(messages);
+
+        return keys.map((key,index) => {
+            const message = messages[key];
+            const lastmessagekey = index == 0 ? null : keys[index-1];
+            const ismymessage = userName == message.sender.username;
+
+            return
+            {
+                <div key={`msg_${index}`} style={{width:'100%'}}>
+                    <div className="message-block">
+                        {
+                            ismymessage?<MyMessage/>:<TheirMessage/>
+                        }
+                    </div>
+                    <div></div>
+                </div>
+            };
+
+        })
+    }
+    renderMessages()
 
     return
     {
