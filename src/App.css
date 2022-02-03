@@ -17,13 +17,20 @@
 }
 
 .ce-active-chat-card {
-  background-color: #cabcdc !important;
-  border: 4px solid #cabcdc !important;
+  /* background-color: #cabcdc !important;
+  border: 4px solid #cabcdc !important; */
+  background-color: #1b1325 !important;
+  border: 2px solid #cabcdc !important;
   border-radius: 0px !important;
 }
 
+.ce-chat-title-text
+{
+  color: rgb(217, 217, 217) !important;
+}
+
 .ce-chat-subtitle-text {
-  color: #595959 !important;
+  color: #ffffff !important;
 }
 
 .ce-chat-form-container {
@@ -48,7 +55,12 @@
 }
 
 .ce-settings {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: #3b2a50 !important;
+}
+
+.ce-person-text
+{
+  color:white;
 }
 
 .ce-autocomplete-input {
@@ -76,7 +88,7 @@
   height: 100%;
   width: 100%;
   overflow: scroll;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(217, 217, 217);
 }
 
 .chat-title-container {
