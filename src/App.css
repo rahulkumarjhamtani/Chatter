@@ -60,7 +60,7 @@
 
 .ce-person-text
 {
-  color:white;
+  color:white !important;
 }
 
 .ce-autocomplete-input {
