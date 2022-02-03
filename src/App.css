@@ -63,6 +63,13 @@
   color:white !important;
 }
 
+.ce-input, .ce-text-input
+{
+  font-weight:700 !important;
+  color:#301b49 !important;
+  text-transform: uppercase !important;
+}
+
 .ce-autocomplete-input {
   border-radius: 6px !important;
   border: 1px solid #3b2a50 !important;
